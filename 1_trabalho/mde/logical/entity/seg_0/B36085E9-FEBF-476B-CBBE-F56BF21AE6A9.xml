@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="B36085E9-FEBF-476B-CBBE-F56BF21AE6A9" directorySegmentName="seg_0" name="Clientes">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:41:34 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<pkName>Clientes PK</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="id_cliente" id="92716768-2D95-B31F-A5AD-230EB2C7D671">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:41:43 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Nome" id="8FC0B711-9534-07C0-49BD-948DDB5F0E0B">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:42:29 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="NIF" id="08EE52C4-9F27-76FF-8A4F-F91B6DD80C58">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 15:32:01 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Contacto" id="6C5C8CEE-EDFE-AFEF-22B6-E4449C2775F3">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 15:32:28 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Morada" id="03544A78-0993-F859-7B52-2510CD20324B">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 15:32:39 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="e-mail" id="6E40A8FD-3708-A392-9A4D-AB31F7662D5F">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 15:33:29 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="n_servicos_adquiridos" id="93CC2E3C-799B-0D47-1807-1FC879CC8B4D">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 16:00:06 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="D7570A5B-A5E6-C5F1-3C55-64735291B765" name="Clientes PK">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:41:56 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92716768-2D95-B31F-A5AD-230EB2C7D671</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="177968BC-5CB7-A363-9277-D855286D0E92" name="NIF">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 16:00:38 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>08EE52C4-9F27-76FF-8A4F-F91B6DD80C58</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

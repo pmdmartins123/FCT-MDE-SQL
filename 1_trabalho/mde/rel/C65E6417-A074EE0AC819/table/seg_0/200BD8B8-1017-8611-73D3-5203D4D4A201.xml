@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="200BD8B8-1017-8611-73D3-5203D4D4A201" directorySegmentName="seg_0" name="troco">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>266520BA-95CF-83FA-214B-366A0F0318ED</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="id_troco" id="2A334365-CF60-7C74-B09C-B8142523EEED">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>12DD8D42-4ABC-47D8-4EDF-77E2B6D7B46C</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Origem" id="41BCDDA8-F5DD-FA35-3213-35A6DE81DB88">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>664DE54A-D6E6-122C-FF1A-31DFF3F0D46D</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Destino" id="98B3A76F-803D-858F-CAB1-6DC3CF9083B3">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>5AF1F4C1-BBA2-62A4-6715-356EB8222886</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="distancia" id="6A8B1D24-6E9D-ABD4-E95F-EB206DA867A4">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>A2E584E4-B228-5A8D-0F96-B0C90A682DF6</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="id_servico" id="381F6852-7671-70F3-D667-BD28E065F6FC">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>83E47F1E-9E49-AA69-F0AD-98DFB8E4BD91</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>6119D5A0-6762-BCAB-58A2-5C5A0174E684</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AA4DF2D-53AF-9C9B-A3EE-A382D083F4C9" referredColumn="6119D5A0-6762-BCAB-58A2-5C5A0174E684"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CA111BA6-7C7C-8CDA-1FF4-B65B61215B27" name="troco__IDX">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="381F6852-7671-70F3-D667-BD28E065F6FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A37226B1-A12E-E536-4278-7D74CFB78060" name="Relation_7">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>D32B1577-AD1E-B01E-4BFB-6778D0B41A87</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="381F6852-7671-70F3-D667-BD28E065F6FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

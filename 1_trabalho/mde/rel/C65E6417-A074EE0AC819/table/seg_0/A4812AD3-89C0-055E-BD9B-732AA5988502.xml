@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A4812AD3-89C0-055E-BD9B-732AA5988502" directorySegmentName="seg_0" name="Transportes">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>66F37DF3-7C4C-A8EC-6188-50DF73F16F1D</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<pkName>Transportes PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Matricula" id="90C9F33B-2AED-35F5-76E1-14739FB85387">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>B03BF446-F130-EFE8-3C62-B5369F49DC4B</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Tipo" id="F99ABEFF-9A46-C245-A5F0-1DC1CDAE1001">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>C8822A5E-E6E1-A35E-4AF0-6ECA236CC22A</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="carga" id="D285E394-1ECB-CA12-96B8-3DBBAB5E32D4">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>645EC492-6032-6B3A-D6F6-BB2FCBD9D87B</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Taxa_Viagem" id="E9B01402-8B4C-DFC0-F16F-1AA949EC2BC2">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-07 17:58:15 UTC</createdTime>
+<generatorID>0E9F87B0-12E6-1AE0-B826-D8F78F1087F8</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Taxa_Aluguer" id="EEAF18C3-6F49-8799-D333-ED1768D09D85">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 19:56:37 UTC</createdTime>
+<generatorID>8302326F-650C-5FEC-50F6-F08C218B497E</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Classe" id="0FA97FEB-FF9C-4859-D7CF-1002C577228A">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>75E836E0-AF56-02C6-C440-497195F0AE02</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Modelo" id="96132F62-9E1D-C7D6-6C84-5551FE08BB41">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>E6FE5A54-1FE2-A892-DBD5-9B31836260AE</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2C355AF1-5EFD-4962-DE90-F8CCBCFC26D5" name="Transportes PK">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>02E37C2B-75EB-E8D1-9698-648950FC8163</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="90C9F33B-2AED-35F5-76E1-14739FB85387"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

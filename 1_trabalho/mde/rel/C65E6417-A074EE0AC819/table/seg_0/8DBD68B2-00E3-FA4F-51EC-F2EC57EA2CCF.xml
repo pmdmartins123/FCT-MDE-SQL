@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="8DBD68B2-00E3-FA4F-51EC-F2EC57EA2CCF" directorySegmentName="seg_0" name="Iti_internacional">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>6546923B-7049-FF71-8CA5-61B356BF2D8E</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<pkName>Iti_internacional PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="id_servico" id="4F071232-BFD1-A131-4C44-E33E7986665F">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>6CFB9805-3A0B-F74C-91BC-03050C89ED5F</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C0CB3394-C79E-8849-0B4A-20E0060AFA2C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3447EF90-FE1B-7EBC-52BE-14F7E975AF0F" referredColumn="C0CB3394-C79E-8849-0B4A-20E0060AFA2C"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Origem" id="1A9530DB-B933-474C-DF7C-06F1EE93E4F6">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>5530D490-E6B7-E36C-CEA3-EC29A785547D</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="Destino" id="FAEEF874-D65E-7928-B773-58367269EC68">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>91B54F9E-7D1E-E32D-5AFC-9396ED8D9E07</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="data_servico" id="4FB3B446-475F-6FF3-720A-C1D327539092">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>6E8ED176-3168-14D7-65C9-56BADA892FFE</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="id_prest" id="BAB3CE56-8D80-76FF-C93A-D8797580A194">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>39B86EFB-511A-23B1-9CB8-A6ADD35D8C84</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>4943E69F-2994-457E-E362-C0B3819111C9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8D02F27-BE3C-5DCC-EEF4-ACC1C4BCE77A" referredColumn="4943E69F-2994-457E-E362-C0B3819111C9"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="12C7E8DF-0AFD-88C3-B673-8AFF62C46D5D" name="Iti_internacional PK">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>7B14A865-159A-90AC-1618-207CA0FB403F</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4F071232-BFD1-A131-4C44-E33E7986665F"/>
+<colUsage columnID="BAB3CE56-8D80-76FF-C93A-D8797580A194"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C3220DAF-CA00-98B1-5CE0-F65091317CE2" name="Relation_6">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>B22B8DFC-45AE-1D04-58DC-72FD31B0659A</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="4F071232-BFD1-A131-4C44-E33E7986665F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="42F513E3-C379-DF35-DC22-7EA1BB94CB32" name="Relation_7">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-12 14:33:54 UTC</createdTime>
+<generatorID>48ADFF0F-7176-4427-DDED-C7934A0BB2F1</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="BAB3CE56-8D80-76FF-C93A-D8797580A194"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

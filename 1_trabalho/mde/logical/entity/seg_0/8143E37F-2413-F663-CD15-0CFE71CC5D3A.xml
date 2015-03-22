@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="8143E37F-2413-F663-CD15-0CFE71CC5D3A" directorySegmentName="seg_0" name="Serviços">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:42:48 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<pkName>Serviços PK</pkName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Attribute</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<attributes>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="id_servico" id="D168035D-3B46-1196-4539-2CCA004ED8BD">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:43:18 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="tipo_seirvco" id="53B440D9-8B4E-E90A-C68A-3156F5124342">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:43:31 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="data_servico" id="BA8C1236-FB81-1AD5-3BE8-6CDE17E11AF3">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:43:46 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Attribute>
+<Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="id_cliente" id="D32A818C-A64E-49C7-B673-6DD407659746">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:45:10 UTC</createdTime>
+<generatorID>BABDB6C2-220F-F381-A8EB-A70BCD3F2CEA</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>92716768-2D95-B31F-A5AD-230EB2C7D671</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers>
+<identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="4EC51488-6578-4542-18B9-7289081CA2AD" name="Serviços PK">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-03-11 10:43:26 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<engineerTo>
+<item key="C65E6417-2530-75DD-0ABF-A074EE0AC819" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D168035D-3B46-1196-4539-2CCA004ED8BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

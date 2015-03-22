@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="B18BDFA6-184F-2ACF-F130-EDF444761272" directorySegmentName="seg_0" name="Facturacao">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-04 13:25:14 UTC</createdTime>
+<generatorID>DA8CDF28-222D-D23E-FB68-A6DECF5B1E9B</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="id_fact" id="8DFCBE91-D085-2F8F-8907-B736C6114D43">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-04 13:25:14 UTC</createdTime>
+<generatorID>D6F40C04-E148-E79A-0834-F4E1757D0B69</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="preco" id="E64CDBD2-406B-CF49-3FF5-F4E6F1CAB853">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-04 13:25:14 UTC</createdTime>
+<generatorID>AAE56F99-4B4D-727E-6B8E-57E4907C0BF7</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="pago" id="271C31E4-A383-6192-88EC-BD65DC94C8AA">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-04 13:25:14 UTC</createdTime>
+<generatorID>48B9FDFC-268D-DAAD-EA9D-5E4E47F90B6F</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="id_servico" id="CC653049-83A2-11E2-AD02-1B1BFB548A00">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-04 13:27:50 UTC</createdTime>
+<generatorID>B4026B64-26D5-AC7E-54C7-BCE917C856CA</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C0CB3394-C79E-8849-0B4A-20E0060AFA2C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCED04AF-C643-8A3E-14EF-92D6C1E9EFE9" referredColumn="C0CB3394-C79E-8849-0B4A-20E0060AFA2C"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5A3C420B-76A9-20AF-4C38-AC23482C17ED" name="Facturacao__IDX">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-04 13:27:50 UTC</createdTime>
+<ownerDesignName>mde</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<indexColumnUsage>
+<colUsage columnID="CC653049-83A2-11E2-AD02-1B1BFB548A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A2D7F219-F116-FB05-7075-B88F63FAE153" name="Relation_7">
+<createdBy>Pedro</createdBy>
+<createdTime>2013-04-04 13:27:50 UTC</createdTime>
+<generatorID>EB981E6A-8319-97AC-AD04-E50E67E506A3</generatorID>
+<ownerDesignName>mde</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="CC653049-83A2-11E2-AD02-1B1BFB548A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
